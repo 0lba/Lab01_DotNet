@@ -117,4 +117,13 @@
 // Console.WriteLine("I need more power!");
 // Console.WriteLine("I need more power!");
 // Console.WriteLine("I need more power!");
-Console.WriteLine("\"Hello There\"");
+// Console.WriteLine("\"Hello There\"");
+Console.WriteLine("Стоимость монитора: ");
+int m = int.Parse(Console.ReadLine());
+Console.WriteLine("Стоимость корпуса: ");
+int c = int.Parse(Console.ReadLine());
+Console.WriteLine("Стоимость клавиатуры: ");
+int k = int.Parse(Console.ReadLine());
+Console.WriteLine("Стоимость мыши: ");
+int mouse = int.Parse(Console.ReadLine());
+Console.WriteLine($"Стоимость 3х пк: {(m + c + k + mouse) * 3} руб.");
