@@ -127,8 +127,11 @@
 // Console.WriteLine("Стоимость мыши: ");
 // int mouse = int.Parse(Console.ReadLine());
 // Console.WriteLine($"Стоимость 3х пк: {(m + c + k + mouse) * 3} руб.");
-Console.WriteLine("Напишите значение 1ого числа: ");
-int a = int.Parse(Console.ReadLine());
-Console.WriteLine("Напишите значение 2ого числа: ");
-int b = int.Parse(Console.ReadLine());
-Console.WriteLine($"Ответ: {3 * Math.Pow((a + b), 3) + 275 * Math.Pow(b, 2) - 127 * a - 41}");
+// Console.WriteLine("Напишите значение 1ого числа: ");
+// int a = int.Parse(Console.ReadLine());
+// Console.WriteLine("Напишите значение 2ого числа: ");
+// int b = int.Parse(Console.ReadLine());
+// Console.WriteLine($"Ответ: {3 * Math.Pow((a + b), 3) + 275 * Math.Pow(b, 2) - 127 * a - 41}");
+Console.WriteLine("напишите градусы Цельсия:");
+double c = double.Parse(Console.ReadLine());
+Console.WriteLine($"Градусы фаренгейта: {(c * 1.8) + 32}");
