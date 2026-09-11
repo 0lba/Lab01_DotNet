@@ -113,7 +113,8 @@
 // Console.WriteLine($"моя любимая цифра: {num}");
 // Console.WriteLine($"Значение числа пи: {pi}");
 // Console.WriteLine($"Моя любимая буква алфавита: {sym}");
-Console.WriteLine("I need more power!");
-Console.WriteLine("I need more power!");
-Console.WriteLine("I need more power!");
-Console.WriteLine("I need more power!");
+// Console.WriteLine("I need more power!");
+// Console.WriteLine("I need more power!");
+// Console.WriteLine("I need more power!");
+// Console.WriteLine("I need more power!");
+Console.WriteLine("\"Hello There\"");
